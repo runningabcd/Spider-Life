@@ -24,7 +24,7 @@
 
 7.网页js加密数据逆向分析
 
-8.App数据抓取、App反编译
+8.App数据抓取、App反编译、tcpdump以及wireshark使用技巧
 
 9.Xposed深度使用
 
