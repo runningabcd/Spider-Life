@@ -30,6 +30,8 @@
     
 
 ##### scrapy是如何运行的(源码级别理解)?
+<img width="1317" alt="main" src="https://user-images.githubusercontent.com/8281035/49266403-108e5a00-f491-11e8-856d-faee4014939e.png">
+
 
     
     
