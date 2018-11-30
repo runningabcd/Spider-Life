@@ -7,7 +7,7 @@
 
 ##### scrapy是如何运行的(架构级别理解)？
 
-    ![Alt text](../images/scrapy_architecture.png?raw=true "Title")
+    ![Alt text](Spider-Life/images/scrapy_architecture.png?raw=true "Title")
     
     1.命令行运行scrapy crawl xxxx， spider start
     
