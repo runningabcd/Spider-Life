@@ -7,8 +7,8 @@
 
 ##### scrapy是如何运行的(架构级别理解)？
 
-    ![image](http://github.com/xiaozhaorunning/Spider-Life/raw/master/images/scrapy_architecture.png)
-    
+![image](https://user-images.githubusercontent.com/8281035/49266275-5eef2900-f490-11e8-9715-f6d5417d4f4b.png)
+
     1.命令行运行scrapy crawl xxxx， spider start
     
     2.spider拿到url之后，生成request对象,然后yield request，引擎此时监控spider的输出，
@@ -30,6 +30,9 @@
     
 
 ##### scrapy是如何运行的(源码级别理解)?
+
+<img width="1317" alt="main" src="https://user-images.githubusercontent.com/8281035/49266403-108e5a00-f491-11e8-856d-faee4014939e.png">
+
 
     
     
