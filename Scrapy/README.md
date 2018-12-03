@@ -31,12 +31,4 @@
 
 ##### scrapy是如何运行的(源码级别理解)?
 
-<img width="1317" alt="main" src="https://user-images.githubusercontent.com/8281035/49266403-108e5a00-f491-11e8-856d-faee4014939e.png">
-
-![image](https://user-images.githubusercontent.com/8281035/49267196-4123c300-f494-11e8-9ef1-3b9ccfa0b014.png)
-
-![image](https://user-images.githubusercontent.com/8281035/49267171-1e91aa00-f494-11e8-988f-f1164b2e9b22.png)
-
-![image](https://user-images.githubusercontent.com/8281035/49267244-70d2cb00-f494-11e8-8a33-37d53c179583.png)
-
-待续.........
+first.md
