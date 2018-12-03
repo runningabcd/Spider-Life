@@ -31,21 +31,19 @@ def while_hex_str(a: str, b: str) -> str:
     c = _a + _b
     _c = []
 
-    def rever(n):
-        while 1:
-            v = n // 3
-            k = n % 3
-            _c.append(str(k))
-            if not v:
-                break
-            n = v
+    while 1:
+        v = c // 3
+        k = c % 3
+        _c.append(str(k))
+        if not v:
+            break
+        c = v
 
-    rever(c)
     _c.reverse()
     return ''.join(_c)
 
 
-# timeit.repeat("recursion_hex_str('201', '102')", "from __main__ import recursion_hex_str",
+# timeit.repeat("while_hex_str('201', '102')", "from __main__ import while_hex_str",
 #               number=1000)
 
 
