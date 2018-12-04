@@ -43,8 +43,8 @@ def while_hex_str(a: str, b: str) -> str:
     return ''.join(_c)
 
 
-# timeit.repeat("while_hex_str('201', '102')", "from __main__ import while_hex_str",
-#               number=1000)
+timeit.repeat("while_hex_str('201', '102')", "from __main__ import while_hex_str",
+              number=1000)
 
 
 # 222222
