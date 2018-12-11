@@ -30,3 +30,11 @@
 24h各行业销量状况
 
 ![image](https://user-images.githubusercontent.com/8281035/49720894-dea0a300-fc9b-11e8-862d-da57334c2ca0.png)
+
+各行业销量前1万名商品成交额统计
+
+![image](https://user-images.githubusercontent.com/8281035/49781811-0e5cb300-fd4f-11e8-9e35-04f754df7ab6.png)
+
+各行业销量前1万名成交额统计
+
+![image](https://user-images.githubusercontent.com/8281035/49781812-10bf0d00-fd4f-11e8-8b31-837aa8ee6eca.png)
