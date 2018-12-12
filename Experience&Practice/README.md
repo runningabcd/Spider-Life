@@ -19,9 +19,6 @@
 
 继续更新，最近这几天一直在忙着分析拼多多的数据
 
-拼多多各行业销量状况，有双单价12.8的情侣鞋，居然卖了370多万双，杂耍的
-
-![image](https://user-images.githubusercontent.com/8281035/49719746-02aeb500-fc99-11e8-8e55-470aae2e9a4a.png)
 ![image](https://user-images.githubusercontent.com/8281035/49863253-d9c62580-fe3a-11e8-8718-995cd1c86172.png)
 ![image](https://user-images.githubusercontent.com/8281035/49863261-dc287f80-fe3a-11e8-8749-577ab828847b.png)
 ![image](https://user-images.githubusercontent.com/8281035/49863264-df237000-fe3a-11e8-8b71-d23e380b721d.png)
