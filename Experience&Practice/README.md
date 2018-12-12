@@ -31,5 +31,6 @@
 
 ![image](https://user-images.githubusercontent.com/8281035/49863274-e185ca00-fe3a-11e8-822d-6f9e399569da.png)
 
+拼多多各行业销量前1万名销售额
 
 ![image](https://user-images.githubusercontent.com/8281035/49863279-e5b1e780-fe3a-11e8-8e3c-56bbb4b85033.png)
