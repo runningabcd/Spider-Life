@@ -19,8 +19,17 @@
 
 继续更新，最近这几天一直在忙着分析拼多多的数据
 
+拼多多双12各行业前1万名商品销售额
+
 ![image](https://user-images.githubusercontent.com/8281035/49863253-d9c62580-fe3a-11e8-8718-995cd1c86172.png)
-![image](https://user-images.githubusercontent.com/8281035/49863261-dc287f80-fe3a-11e8-8749-577ab828847b.png)
+
+拼多多各行业成交额占比
+
 ![image](https://user-images.githubusercontent.com/8281035/49863264-df237000-fe3a-11e8-8b71-d23e380b721d.png)
+
+拼多多各行业销量占比
+
 ![image](https://user-images.githubusercontent.com/8281035/49863274-e185ca00-fe3a-11e8-822d-6f9e399569da.png)
+
+
 ![image](https://user-images.githubusercontent.com/8281035/49863279-e5b1e780-fe3a-11e8-8e3c-56bbb4b85033.png)
