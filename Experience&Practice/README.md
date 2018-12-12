@@ -22,19 +22,8 @@
 拼多多各行业销量状况，有双单价12.8的情侣鞋，居然卖了370多万双，杂耍的
 
 ![image](https://user-images.githubusercontent.com/8281035/49719746-02aeb500-fc99-11e8-8e55-470aae2e9a4a.png)
-
-当天各行业销量状况
-
-![image](https://user-images.githubusercontent.com/8281035/49720891-dc3e4900-fc9b-11e8-9b01-27c897279b5b.png)
-
-24h各行业销量状况
-
-![image](https://user-images.githubusercontent.com/8281035/49720894-dea0a300-fc9b-11e8-862d-da57334c2ca0.png)
-
-各行业销量前1万名商品成交额统计
-
-![image](https://user-images.githubusercontent.com/8281035/49781811-0e5cb300-fd4f-11e8-9e35-04f754df7ab6.png)
-
-各行业销量前1万名成交额统计
-
-![image](https://user-images.githubusercontent.com/8281035/49781812-10bf0d00-fd4f-11e8-8b31-837aa8ee6eca.png)
+![image](https://user-images.githubusercontent.com/8281035/49863253-d9c62580-fe3a-11e8-8718-995cd1c86172.png)
+![image](https://user-images.githubusercontent.com/8281035/49863261-dc287f80-fe3a-11e8-8749-577ab828847b.png)
+![image](https://user-images.githubusercontent.com/8281035/49863264-df237000-fe3a-11e8-8b71-d23e380b721d.png)
+![image](https://user-images.githubusercontent.com/8281035/49863274-e185ca00-fe3a-11e8-822d-6f9e399569da.png)
+![image](https://user-images.githubusercontent.com/8281035/49863279-e5b1e780-fe3a-11e8-8e3c-56bbb4b85033.png)
