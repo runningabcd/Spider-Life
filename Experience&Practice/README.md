@@ -45,11 +45,11 @@ numpy pandas matplotlib 分析拼多多
 
 matplotlib 暂时告一段落  
 
-  箱线图 boxplot
-  折线图 plot
-  直方图 hist
-  柱状图 plot bar
-  饼图 pie
-  散点图 scatter
+    箱线图 boxplot
+    折线图 plot
+    直方图 hist
+    柱状图 plot bar
+    饼图 pie
+    散点图 scatter
 
  
