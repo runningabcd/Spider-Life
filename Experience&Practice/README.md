@@ -40,3 +40,16 @@ numpy pandas matplotlib 分析拼多多
 拼多多各行业销量前1万名销售额
 
 ![image](https://user-images.githubusercontent.com/8281035/49863279-e5b1e780-fe3a-11e8-8e3c-56bbb4b85033.png)
+
+2018/12/13
+
+matplotlib 暂时告一段落  
+
+  箱线图 boxplot
+  折线图 plot
+  直方图 hist
+  柱状图 plot bar
+  饼图 pie
+  散点图 scatter
+
+ 
