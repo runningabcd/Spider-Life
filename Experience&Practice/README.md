@@ -19,6 +19,12 @@
 
 继续更新，最近这几天一直在忙着分析拼多多的数据
 
+2018/12/11
+
+numpy pandas matplotlib 分析拼多多
+
+2018/12/12
+
 拼多多双12各行业前1万名商品销售额
 
 ![image](https://user-images.githubusercontent.com/8281035/49863253-d9c62580-fe3a-11e8-8718-995cd1c86172.png)
