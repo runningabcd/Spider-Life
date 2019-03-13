@@ -38,11 +38,17 @@ class Solution(object):
 #Manacher 马拉车回文串
 class Solution4:
     def longestPalindrome(self, s: str) -> str:
-        s = '#' + '#'.join(s) + '#'
+        temp = ""
+        for i in s:
+            temp += "#" + i
+        temp += "#"
         maxRight = 0
         pos = 0
-        RL = [0] * len(s)
-        for i in range(len(s)):
+        str_len = len(temp)
+        RL = [0] * str_len
+        max_len = 0
+        for i in range(str_len):
+
             # 求 i 已 pos为对称中心的对称点 j
             j = 2 * pos - i
             # 判断 i 的位置 a i在maxright左边  b.i在maxright右边
@@ -54,16 +60,19 @@ class Solution4:
                 # 否则的话从1开始
                 RL[i] = 1
             # 左右拓展，判断是不是回文串，若是回文串，则加1
-            while i - RL[i] >= 0 and i + RL[i] < len(s) and s[i - RL[i]] == s[i + RL[i]]:
+            while i - RL[i] >= 0 and i + RL[i] < len(temp) and temp[i - RL[i]] == temp[i + RL[i]]:
                 RL[i] += 1
             # RL[i] - 1是已i为中心的回文串的半径 若是i+回文串半径超过maxRight 则 更新maxRight 以及pos
             if i + RL[i] - 1 > maxRight:
                 maxRight = i + RL[i] - 1
                 pos = i
-            if RL[i] == max(RL):
+            if RL[i] > max_len:
+                max_len = RL[i]
                 max_index = i
-        lenth = max(RL)-1
-        return s[max_index-lenth: max_index+lenth+1].replace('#', '')
+        return s[
+               int((max_index - max_len) / 2 + 1):
+               int((max_index + max_len) / 2)
+               ]
 
 
 print(Solution().maxdepth(TreeNode()))
