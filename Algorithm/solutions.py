@@ -75,6 +75,84 @@ class Solution4:
                ]
 
 
+# Z 字形变换
+class Solution5(object):
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1:
+            return s
+        nr = numRows - 1
+        str_len = len(s)
+        dstr = ''
+        for i in range(numRows):
+            for j in range(i, str_len, 2 * nr):
+                dstr += s[j]
+                next_index = j + 2 * (nr - i)
+                if next_index <= j:
+                    continue
+                if next_index >= str_len:
+                    continue
+                if i == 0:
+                    continue
+                dstr += s[next_index]
+        return dstr
+
+# 整数反转
+class Solution6:
+    def reverse(self, x: int) -> int:
+        x = str(x)
+        if '-' in x:
+            x = int('-' + x[1:][::-1])
+        else:
+            x = int(x[::-1])
+        if x < -2 ** 31 or x > 2 ** 31 - 1:
+            return 0
+        return x
+
+# 字符串转换整数 (atoi)
+class Solution7:
+    def myAtoi(self, string: str) -> int:
+        dig_list = [str(j) for j in range(0, 10)]
+        words = ''.join([chr(97 + i) for i in range(26)])
+        dstr = ''
+        for i in iter(string.lstrip()):
+            if not dstr:
+                if i in words:
+                    return 0
+                if not i:
+                    continue
+                if i not in dig_list+['-', '+']:
+                    return 0
+                dstr+=i
+            else:
+                if i not in dig_list:
+                    break
+                else:
+                    dstr+=i
+        if len(dstr)<=1:
+            if len(dstr) == 1:
+                if dstr not in dig_list:
+                    return 0
+                else:
+                    return int(dstr)
+            return 0
+        result = int(float(dstr))
+        if result < -2 ** 31:
+            return -2 ** 31
+        elif result > 2 ** 31 - 1:
+            return 2 ** 31 - 1
+        return result
+
+# 回文数
+class Solution8:
+    def isPalindrome(self, x: int) -> bool:
+        if not x:
+            return True
+        str_x = str(x)
+        if str_x != str_x[::-1]:
+            return False
+        return True
+
+
 print(Solution().maxdepth(TreeNode()))
 
 '''
