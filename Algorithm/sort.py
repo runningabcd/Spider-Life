@@ -14,7 +14,7 @@ def buddle_sort(_list=None) -> list:
     return _list
 
 
-def qucik_sort(_list: list, left: int, right: int) -> list:
+def quick_sort(_list: list, left: int, right: int) -> list:
     if left >= right:
         return []
     low = left
