@@ -50,5 +50,5 @@ def binary_search(_list: list, key: int):
 
 if __name__ == '__main__':
     buddle_sort(_list)
-    _lists = qucik_sort(_list, 0, len(_list) - 1)
+    _lists = quick_sort(_list, 0, len(_list) - 1)
     binary_search(_lists, 10)
