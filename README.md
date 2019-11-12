@@ -2,6 +2,8 @@
 
 未经本人同意，禁止转载该github上任何东东，否则人肉/ddos伺候!!!!!
 
+I know who I am, I know what I want.
+
 整理下这几年以来做爬虫用过的一些技术
 
 适合爬虫进阶的同学
